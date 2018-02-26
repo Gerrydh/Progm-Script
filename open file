@@ -1,0 +1,5 @@
+# How to open close and print files
+
+with open("data/iris.csv") as g:
+    contents = g.read()
+    print(contents)
